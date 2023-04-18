@@ -13,3 +13,4 @@ features:
   details: Reduce your API requests by using a DB cache
 footer: Made by Anthony Rave with ❤️
 ---
+

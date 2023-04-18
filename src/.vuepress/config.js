@@ -27,21 +27,31 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'https://github.com/anthonyrave/riot-api-connector',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    logo: '/logo-circle-red.svg',
+    repo: 'anthonyrave/riot-api-connector',
+    editLinks: true,
+    docsRepo: 'anthonyrave/riot-api-connector-docs',
+    editLinkText: 'Help us improve this page!',
     lastUpdated: false,
+    smoothScroll: true,
     nav: [],
+    displayAllHeaders: true,
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Getting started',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'installation',
           ]
+        },
+        {
+          title: 'Features',
+          collapsable: false,
+          children: [
+            'summoner',
+          ],
         }
       ],
     }
