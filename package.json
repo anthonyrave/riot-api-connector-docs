@@ -1,0 +1,19 @@
+{
+  "name": "riot-api-connector-docs",
+  "version": "0.0.1",
+  "description": "Riot API Connector documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Anthony Rave",
+    "email": "anthony.rave@icloud.com"
+  },
+  "repository": "https://github.com/anthonyrave/riot-api-connector-docs/riot-api-connector-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
