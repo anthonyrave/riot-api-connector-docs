@@ -35,7 +35,6 @@ module.exports = {
     lastUpdated: false,
     smoothScroll: true,
     nav: [],
-    displayAllHeaders: true,
     sidebar: {
       '/guide/': [
         {
@@ -44,6 +43,7 @@ module.exports = {
           children: [
             '',
             'installation',
+            'facades',
           ]
         },
         {
