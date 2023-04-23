@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base: '/riot-api-connector-docs/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -51,6 +52,7 @@ module.exports = {
           collapsable: false,
           children: [
             'summoner',
+            'champion-mastery',
           ],
         }
       ],
