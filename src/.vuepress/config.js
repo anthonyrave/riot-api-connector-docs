@@ -44,7 +44,6 @@ module.exports = {
           children: [
             '',
             'installation',
-            'facades',
           ]
         },
         {
