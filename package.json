@@ -1,6 +1,6 @@
 {
   "name": "riot-api-connector-docs",
-  "version": "0.0.2",
+  "version": "0.4.0",
   "description": "Riot API Connector documentation",
   "main": "index.js",
   "authors": {
